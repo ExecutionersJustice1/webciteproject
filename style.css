@@ -1,0 +1,12 @@
+body{
+    background-color: lightgray;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: -10.6px;
+    background: linear-gradient(180deg, #51A4E0 5.34%, rgba(84, 81, 224, 0) 130.34%);
+}
