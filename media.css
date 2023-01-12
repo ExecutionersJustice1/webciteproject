@@ -1,0 +1,53 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+    header{
+         padding: 10px 5%;
+    }
+    nav{
+        padding-right: 10px;
+    }
+    header .nav-links {
+        font-size: 25px;
+    }
+    li, a {
+        font-size: 25px;
+    }
+    .nav-links li a {
+        font-size: 25px;
+    }
+    .nav-links li a img{
+        width: 50%;
+    }
+    .nav-links li{
+        padding: 6px;
+    }
+    .logo{
+       max-width: 80px;
+    }
+    .cart{
+        margin-left: 0px;
+    }
+    .buter{
+        width: 15%;
+    }
+}
+
+/* Medium Deivces, Desktops */
+@media only screen and (max-width: 992px) {
+    
+}
+
+/* Small Deivces, Tablets */
+@media only screen and (max-width: 768px) {
+    
+}
+
+/* Extra Small Deivces, Phones */
+@media only screen and (max-width: 480px) {
+ 
+}
+
+/* Custom, Iphone Retins */
+@media only screen and (max-width: 320px) {
+    
+}
