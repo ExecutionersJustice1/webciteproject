@@ -3,6 +3,9 @@
     header{
          padding: 10px 5%;
     }
+    body{
+        min-width: 992px;
+    }
     nav{
         padding-right: 10px;
     }
@@ -37,6 +40,9 @@
     header{
         padding: 10px 5%;
    }
+   body{
+    min-width: 768px;
+}
    nav{
        padding-right: 10px;
    }
@@ -71,6 +77,10 @@
     header{
         padding: 10px 5%;
    }
+   body{
+    min-width: 488px;
+
+   }
    nav{
        padding-right: 10px;
    }
@@ -104,6 +114,9 @@
 @media only screen and (max-width: 480px) {
     header{
         padding: 10px 5%;
+   }
+   body{
+    min-width: 320px;
    }
    nav{
        padding-right: 10px;

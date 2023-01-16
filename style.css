@@ -1,5 +1,6 @@
 body{
     background-color: rgb(233, 233, 233);
+    min-width: 1200px;
 }
 
 .buter{
@@ -19,11 +20,12 @@ li, a {
 
 /* КОРЗИНА */
 header{
-    margin: -8px -10px -10px -10px;
+    margin: -8px -8px -8px -8px;
     display: flex;
-    justify-content: space-between;
+    flex-shrink: 1;
+    justify-content: space-around;
     align-items: center;
-    padding: 30px 7%;
+    padding: 18px 7%;
     background-image: linear-gradient(
         180deg,
         hsl(207deg 70% 62%) 0%,
@@ -34,17 +36,23 @@ header{
 
 .logo{
     cursor: pointer;
+    flex-shrink: 1;
+    min-width: 0px;
 }
-.nav-links{
+.menu__box{
+    min-width: 0px;
     list-style: none;
     display: block;
     padding: 10px 6px;
     
+    
+    
 }
 
-.nav-links li{
+.menu__box li{
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 10px;
+    margin-left: 20px;
 }
 /*ШРИФТ ПРИ НАВЕДЕНИИ*/
 header a:hover{
@@ -52,13 +60,57 @@ header a:hover{
 
   
 }
-.buterat {
-    max-width: 15%;
+.menu__item__img img{
+    max-width: 30px;    
+    margin-right: -56px;
 }
 
 .hamburger-menu input{
     display: none;
 }
-ul .otstup{
-    text-align: right;
+
+footer {
+
+    background-color: red;
+	position: absolute;
+    
+    background-image: linear-gradient(
+        360deg,
+        hsl(207deg 70% 62%) 0%,
+        hsl(219deg 69% 79%) 32%,
+        hsl(233deg 71% 90%) 100%
+      );
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.footli{
+    text-align: center;
+    list-style: none;
+    
+    
+}
+.footlogo{
+    
+    width: 8%;
+    height: 8%;
+}
+.navfoot{
+    display: inline-block;
+}
+.footcenter{
+    margin-right: 700px;
+    font-family: 'Montserrat Alternates';
+    align-self: flex-end;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+  
+    
 }
