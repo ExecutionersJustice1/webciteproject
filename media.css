@@ -9,23 +9,28 @@
     nav{
         padding-right: 10px;
     }
-    header .nav-links {
-        font-size: 25px;
+    header .menu__item {
+        font-size: 21px;
     }
     li, a {
-        font-size: 25px;
+        font-size: 21px;
     }
-    .nav-links li a {
-        font-size: 25px;
+    .menu__item li a {
+        font-size: 21px;
     }
-    .nav-links li a img{
+    .menu__item li a img{
         width: 50%;
     }
-    .nav-links li{
+    .menu__item li{
         padding: 6px;
     }
     .logo{
        max-width: 80px;
+    }
+    .menu__item__img img{
+        max-width: 25px;    
+        margin-right: -90px;
+    
     }
     .cart{
         margin-left: 0px;
@@ -33,6 +38,13 @@
     .buter{
         width: 15%;
     }
+      /*               */
+   footer{
+    display: none;
+   }
+   .wrapper{
+    display: none;
+   }
 }
 
 /* Medium Deivces, Desktops */
@@ -40,25 +52,22 @@
     header{
         padding: 10px 5%;
    }
-   body{
-    min-width: 768px;
-}
+
    nav{
        padding-right: 10px;
    }
-   header .nav-links {
-       font-size: 20px;
+   header .menu__item {
+       font-size: 15px;
    }
    li, a {
-       font-size: 20px;
+       font-size: 16px;
    }
-   .nav-links li a {
-       font-size: 20px;
-   }
-   .nav-links li a img{
-       width: 50%;
-   }
-   .nav-links li{
+   .menu__item__img img{
+    max-width: 25px;    
+    margin-right: -90px;
+
+}
+   .menu__item li{
        padding: 6px;
    }
    .logo{
@@ -70,6 +79,11 @@
    .buter{
        width: 15%;
    }
+
+   /*               */
+   footer{
+    display: none;
+   }
 }
 
 /* Small Deivces, Tablets */
@@ -78,36 +92,38 @@
         padding: 10px 5%;
    }
    body{
-    min-width: 488px;
+    min-width: 480px;
 
    }
+
    nav{
        padding-right: 10px;
    }
-   header .nav-links {
-       font-size: 16px;
+   header .menu__item {
+       font-size: 11px;
    }
    li, a {
-       font-size: 16px;
+       font-size: 11px;
    }
-   .nav-links li a {
-       font-size: 16px;
+   .menu__item li a {
+       font-size: 11px;
    }
-   .nav-links li a img{
-       width: 50%;
-   }
-   .nav-links li{
+
+   .menu__item li{
        padding: 6px;
    }
    .logo{
-      max-width: 60px;
+    margin-right: -10px;
+      max-width: 50px;
    }
    .cart{
        margin-left: 0px;
    }
-   .buter{
-       width: 15%;
-   }
+   .menu__item__img img{
+    max-width: 20px;    
+    margin-right: -40px;
+
+}
 }
 
 /* Extra Small Deivces, Phones */
@@ -139,8 +155,9 @@
    .logo{
      display: none;
    }
+   .menu__box
    .cart{
-       margin-left: 0px;
+       margin-left: 300px;
    }
    .buterat {
     display: none;
@@ -191,7 +208,8 @@
     top: 8px;
   }
   .menu__box {
-    display: block;
+    display: flex;
+    flex-direction: column;
     position: fixed;
     top: 0;
     left: -100%;
